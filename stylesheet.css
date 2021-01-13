@@ -1,0 +1,12 @@
+#weatherHeader {
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+}
+.list-group {
+    margin-top: 10px;
+}
+#forecast {
+    margin-top: 10px;
+}
