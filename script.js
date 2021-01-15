@@ -1,6 +1,7 @@
 // Contains a starting list of cities on the Weather Dashboard
 var cityArray = ["Austin", "Chicago", "Seattle", "New York", "Los Angeles"];
 
+// Generates a list of cities on the lefthand side of the webpage
 function generateCities() {
     for (i = 0; i < cityArray.length; i++) {
         var cityButton = $("<button>");
@@ -80,6 +81,7 @@ $("#searchButton").on("click", function () {
     });
     });
 })
+
 // This onclick event will give the weather data for that city on the dashboard
 $(".city").on("click", function(){
     var cityName = $(this).text();
